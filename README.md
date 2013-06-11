@@ -1,6 +1,10 @@
-# flight-orientation-app
+# iOS7 parallax homescreen
 
-An HTML5, CSS3 and JS implementation of the iOS7 parallax wallpaper using [Twitter Flight](https://github.com/twitter/flight) and [flight-orientation](https://github.com/cameronhunter/flight-orientation).
+An HTML5, CSS3 and JS implementation of the iOS7 parallax homescreen using [Twitter Flight](https://github.com/twitter/flight) and [flight-orientation](https://github.com/cameronhunter/flight-orientation).
+
+The background image moves as you tilt and rotate your device.
+
+[Give the demo a try on your smartphone](http://cameronhunter.github.io/flight-orientation-app). Currently it's only been tested on Chrome for Android on a Galaxy Nexus.
 
 ![flight-orientation-app screenshot](https://dl.dropboxusercontent.com/u/161487/flight-orientation-app/screenshot.png)
 
