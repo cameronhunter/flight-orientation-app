@@ -31,7 +31,7 @@ define(function (require) {
     };
 
     this.after('initialize', function () {
-      this.on(document, 'orientation-update', utils.throttle(this.update, 1000));
+      this.on(document, 'orientation-update', utils.throttle(this.update));
     });
   }
 

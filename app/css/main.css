@@ -1,7 +1,3 @@
-
-@import "bootstrap.css";
-@import "bootstrap-responsive.css";
-
 body {
   text-align: center;
   overflow: hidden;
@@ -19,7 +15,7 @@ body {
   background-size: cover;
   z-index: 1;
   -webkit-transition: .1s;
-  transition: .1s;
+  transition: .05s;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
@@ -93,7 +89,7 @@ body {
 }
 
 .icon:nth-child(3n) {
-  background: #1abc9c, ;
+  background: #1abc9c;
 }
 
 .icon:nth-child(3n+1) {
@@ -101,9 +97,29 @@ body {
 }
 
 .icon:nth-child(3n+2) {
-  background: #f1c40f;
+  background: #27ae60;
 }
 
 .icon:nth-child(3n+3) {
-  background: #27ae60;
+  background: #f1c40f;
+}
+
+.icon.twitter {
+  background-color: #00aced;
+}
+
+.icon.twitter a {
+  display: block;
+  background: url(/img/larry.png) left top no-repeat;
+  background-size: cover;
+  width: 20vw;
+  height: 20vw;
+}
+
+.icon.github a {
+  display: block;
+  background: url(/img/octocat.png) left top no-repeat;
+  background-size: cover;
+  width: 20vw;
+  height: 20vw;
 }
