@@ -1,0 +1,21 @@
+{
+  "name": "flight-orientation",
+  "version": "0.0.0",
+  "dependencies": {
+    "flight": "~1.0.7"
+  },
+  "devDependencies": {
+    "flight-jasmine": "~1.0.0",
+    "jasmine-jquery": "~1.5.0"
+  },
+  "gitHead": "dea750e4a1186d80a823b22bbd87380aa328f79a",
+  "readme": "# flight-orientation\n\nA [Flight](https://github.com/twitter/flight) component for device orientation.\n\n## Installation\n\n```bash\nbower install --save flight-orientation\n```\n## Example\n\n```javascript\ndefine(['flight-orientation'], function(Orientation) {\n\n  Orientation.attachTo(document);\n\n  // Listen for device orientation updates\n  $(document).on('orientation-update', function(e, orientation) {\n    console.log(e, orientation);\n  });\n\n  // Listen for device support\n  $(document).on('orientation-supported', function() {\n    console.log('Device supports orientation!');\n  });\n\n  // Listen for unsupported devices\n  $(document).on('orientation-unsupported', function() {\n    console.log('Device doesn't support orientation :(');\n  });\n});\n```\n\n## Development\n\nDevelopment of this component needs [Bower](http://bower.io), and ideally\n[Karma](http://karma-runner.github.io) to be globally installed:\n\n```bash\nnpm install -g bower karma\n```\n\nThen install the Node.js and client-side dependencies by running the following\ncommands in the repo's root directory.\n\n```bash\nnpm install\nbower install\n```\n\nTo continuously run the tests in Chrome and Firefox during development, just run:\n\n```bash\nkarma start\n```\n\n## Contributing to this project\n\nAnyone and everyone is welcome to contribute. Please take a moment to\nreview the [guidelines for contributing](CONTRIBUTING.md).\n\n* [Bug reports](CONTRIBUTING.md#bugs)\n* [Feature requests](CONTRIBUTING.md#features)\n* [Pull requests](CONTRIBUTING.md#pull-requests)\n",
+  "readmeFilename": "README.md",
+  "_id": "flight-orientation@0.0.0",
+  "description": "A [Flight](https://github.com/twitter/flight) component for device orientation.",
+  "commit": "dea750e4a1186d80a823b22bbd87380aa328f79a",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cameronhunter/flight-orientation.git"
+  }
+}
