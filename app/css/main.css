@@ -11,7 +11,7 @@ body {
   position: absolute;
   top: -25vh;
   left: -25vw;
-  background: url(/img/background-iphone.jpg) no-repeat;
+  background: url(../img/background-iphone.jpg) no-repeat;
   background-size: cover;
   z-index: 1;
   -webkit-transition: .1s;
@@ -110,7 +110,7 @@ body {
 
 .icon.twitter a {
   display: block;
-  background: url(/img/larry.png) left top no-repeat;
+  background: url(../img/larry.png) left top no-repeat;
   background-size: cover;
   width: 20vw;
   height: 20vw;
@@ -118,7 +118,7 @@ body {
 
 .icon.github a {
   display: block;
-  background: url(/img/octocat.png) left top no-repeat;
+  background: url(../img/octocat.png) left top no-repeat;
   background-size: cover;
   width: 20vw;
   height: 20vw;
